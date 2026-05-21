@@ -1,13 +1,10 @@
-
-import './App.css'
-
-function App() {
-
-
+ import Header from './components/Header.jsx'
+ function App() {
   return (
-    <>
-     
-    </>
+    <div className='bg-white'>
+    <Header />
+      
+    </div>
   )
 }
 
