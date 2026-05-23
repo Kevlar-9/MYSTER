@@ -1,22 +1,21 @@
 import { Link } from "react-router-dom"
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBag'
+import bag from '../assets/bag.svg'
 function Header () {
   return (
     <div className="text-black">
-      <div className="lg:flex w-full hidden ">
-        <div className="flex w-full items-center">
-          <Link><h3>COLLECTIONS</h3></Link>
-          <Link><h3>NEW ARRIVALS</h3></Link>
-          <Link><h3>THE ATELIER</h3></Link>
+      <div className="lg:flex w-full hidden p-4 lg:justify-evenly">
+        <div className="flex w-full items-center justify-evenly">
+          <Link><h3 className="text-sm text-gray-600 font-[arial]">COLLECTIONS</h3></Link>
+          <Link><h3 className="text-sm text-gray-600 font-[arial]">NEW ARRIVALS</h3></Link>
+          <Link><h3 className="text-sm text-gray-600 font-[arial]">THE ATELIER</h3></Link>
         </div>
-        <div className="flex w-full">
-          <h1>Myster</h1>
+        <div className="w-full flex items-center justify-center">
+          <h1 className="text-4xl font-[serif]">Myster</h1>
         </div>
-        <div className="flex w-full">
-          <Link><h3>PHILOSOPHY</h3></Link>
-          <Link><h3>JOURNAL</h3></Link>
-          <div><input type="search" name="" id="" placeholder="Search...." /></div>
-          <img src="" alt="" />
+        <div className="flex w-full items-center justify-evenly">
+          <Link><h3 className="text-sm text-gray-600 font-[arial]">PHILOSOPHY</h3></Link>
+          <Link><h3 className="text-sm text-gray-600 font-[arial]">JOURNAL</h3></Link>
+          <img className="cursor-pointer" src={bag} alt="" />
         </div>
 
       </div>
@@ -33,7 +32,7 @@ function Header () {
           <h1>Myster logo is here</h1>
           </div>
           <div className="flex-none">
-            <ShoppingBagIcon color="primary" sx={{ '&:hover': { color: 'red' } }} />
+            <Link to='/'><img className='cursor-pointer' src={bag} alt="" /></Link>
           </div>
         </div>        
       </div>
