@@ -1,6 +1,6 @@
 function Footer () {
   return (
-    <div>Signin</div>
+    <div className="hidden">Signin</div>
   )
 }
 

@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
 import bag from '../assets/bag.svg'
+import PersonIcon from '@mui/icons-material/Person';
+
 function Header () {
   return (
-    <div className="text-black">
+    <div className="text-black bg-white">
       <div className="lg:flex w-full hidden p-4 lg:justify-evenly">
         <div className="flex w-full items-center justify-evenly">
           <Link><h3 className="text-sm text-gray-600 font-[arial]">COLLECTIONS</h3></Link>
@@ -16,6 +18,7 @@ function Header () {
           <Link><h3 className="text-sm text-gray-600 font-[arial]">PHILOSOPHY</h3></Link>
           <Link><h3 className="text-sm text-gray-600 font-[arial]">JOURNAL</h3></Link>
           <img className="cursor-pointer" src={bag} alt="" />
+          <Link to='/Signup'><PersonIcon /></Link>
         </div>
 
       </div>
@@ -31,10 +34,18 @@ function Header () {
           <div className="">
           <h1>Myster logo is here</h1>
           </div>
-          <div className="flex-none">
+          <div className="flex items-center gap-4">
             <Link to='/'><img className='cursor-pointer' src={bag} alt="" /></Link>
+            <Link to='/Signup'><PersonIcon /></Link>
           </div>
-        </div>        
+        </div> 
+
+               <div>
+                <div>
+                  
+                </div>
+                <div></div>
+               </div>
       </div>
     </div>
   )
