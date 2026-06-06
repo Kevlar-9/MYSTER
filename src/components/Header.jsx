@@ -5,26 +5,26 @@ import PersonIcon from '@mui/icons-material/Person';
 function Header () {
   return (
     <div className="text-black bg-white">
-      <div className="lg:flex w-full hidden p-4 lg:justify-evenly">
-        <div className="flex w-full items-center justify-evenly">
-          <Link><h3 className="text-sm text-gray-600 font-[arial]">COLLECTIONS</h3></Link>
-          <Link><h3 className="text-sm text-gray-600 font-[arial]">NEW ARRIVALS</h3></Link>
-          <Link><h3 className="text-sm text-gray-600 font-[arial]">THE ATELIER</h3></Link>
+      <div className="md:flex w-full hidden p-4 lg:justify-evenly">
+        <div className="flex w-full items-center justify-evenly gap-4">
+          <Link><h3 className="text-sm text-gray-600 font-[arial] hover:text-black transition duration-150">COLLECTIONS</h3></Link>
+          <Link><h3 className="text-sm text-gray-600 font-[arial] hover:text-black transition duration-150">NEW ARRIVALS</h3></Link>
+          <Link><h3 className="text-sm text-gray-600 font-[arial] hover:text-black transition duration-150">THE ATELIER</h3></Link>
         </div>
-        <div className="w-full flex items-center justify-center">
+        <div className="text-center w-full justify-center items-center">
           <h1 className="text-4xl font-[serif]">Myster</h1>
         </div>
         <div className="flex w-full items-center justify-evenly">
-          <Link><h3 className="text-sm text-gray-600 font-[arial]">PHILOSOPHY</h3></Link>
-          <Link><h3 className="text-sm text-gray-600 font-[arial]">JOURNAL</h3></Link>
+          <Link><h3 className="text-sm text-gray-600 font-[arial] hover:text-black transition duration-150">PHILOSOPHY</h3></Link>
+          <Link><h3 className="text-sm text-gray-600 font-[arial] hover:text-black transition duration-150">JOURNAL</h3></Link>
           <img className="cursor-pointer" src={bag} alt="" />
-          <Link to='/Signup'><PersonIcon /></Link>
+          <Link to='/Signin'><PersonIcon /></Link>
         </div>
 
       </div>
 
 
-      <div className="bg-red-200 flex lg:hidden">
+      <div className="bg-red-200 flex md:hidden">
         <div className="navbar bg-white shadow-sm flex justify-around gap-30 w-full">
           <div className="flex-none">
             <button className="btn btn-square btn-ghost">
@@ -32,11 +32,11 @@ function Header () {
             </button>
           </div>
           <div className="">
-          <h1>Myster logo is here</h1>
+          <h1>MYSTER</h1>
           </div>
           <div className="flex items-center gap-4">
             <Link to='/'><img className='cursor-pointer' src={bag} alt="" /></Link>
-            <Link to='/Signup'><PersonIcon /></Link>
+            <Link to='/Signin'><PersonIcon /></Link>
           </div>
         </div> 
 
