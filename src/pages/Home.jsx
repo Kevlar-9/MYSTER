@@ -1,4 +1,5 @@
 import Model from '../assets/model.jpg'
+
 function Home(){
   return (
     <main className="min-h-screen">
@@ -7,7 +8,7 @@ function Home(){
         style={{ backgroundImage: `url(${Model})` }}
       >
         <div className="absolute inset-0 bg-black/70" />
-        <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 text-center">
+        <div className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center">
           <p className="mb-4 text-xs uppercase tracking-[0.35em] text-white/80">
             AESTHETICALLY SILENT
           </p>
