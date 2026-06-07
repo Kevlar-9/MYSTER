@@ -57,20 +57,6 @@ function Signup() {
                   </button>
                 </form>
 
-                <div>
-                  <h1 className="text-center text-sm mb-6">OR CONTINUE WITH</h1>
-                  <div className="flex justify-between gap-4 mb-6">
-                    <Link to='/' className="gap-2 bg-white rounded-lg flex-1 p-4 flex items-center justify-center hover:bg-gray-100 ring-1 ring-black/30 hover:ring-2 transition duration-150">
-                      <img src={google} alt="Google" className="h-5" />
-                      <span className="text-sm">Google</span>
-                    </Link>
-                    <Link to='/' className="gap-2 bg-white rounded-lg flex-1 p-4 flex items-center justify-center hover:bg-gray-100 ring-1 ring-black/30 hover:ring-2 transition duration-150">
-                      <AppleIcon />
-                      <span className="text-sm">Apple</span>
-                    </Link>
-                  </div>
-                </div>
-
                 <div className="flex gap-3 items-center justify-center">
                   <h3 className="text-black/70">Already a member?</h3>
                   <Link to='/Signin' className="underline font-semibold">Sign In</Link>
