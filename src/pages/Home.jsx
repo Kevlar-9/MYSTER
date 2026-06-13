@@ -21,95 +21,30 @@ function Home(){
         </div>
       </section>
 
-      <section>
-    <div className="carousel carousel-center w-full  gap-2">
-  <div className="carousel-item">
-    <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-  </div>
-  </div>
-  
-    <div className="carousel-item">
-    <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-  </div>
-  </div>
-
-    <div className="carousel-item">
-    <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-  </div>
-  </div>
-
-    <div className="carousel-item">
-    <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-  </div>
-  </div>
-
-    <div className="carousel-item">
-    <div className="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-  </div>
-  </div>
-
-</div>
+      <section className='bg-white text-black shadow-md shadow-black h-full'>
+        <div className='flex items-center justify-between p-10'>
+              <div>
+                <h1 className='text-4xl font-[playfair] mb-2 font-semilight'>New Arrivals</h1>
+                <p className='font-[playfair] text-gray-600'>Curated essentials for the modern minimalist.</p>
+              </div>
+              <div>
+                <h1 className='border-b-2 text-md hover:border-b'>VIEW ALL</h1>
+              </div>
+        </div>
+        <div className='px-10 flex'>
+          <div className='w-full'>1</div>
+          <div className='w-full'>2</div>
+          <div className='w-full'>3</div>
+          <div className='w-full'>4</div>
+        </div>
       </section>
+  
+
+
+
+
+
+
 
       
     </main>

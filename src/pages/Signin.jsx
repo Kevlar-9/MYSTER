@@ -19,7 +19,7 @@ function Signin () {
             className='w-7/12 bg-black/75 relative bg-contain  bg-center bg-no-repeat min-h-[calc(100vh-128px)]'
             style={{ backgroundImage: `url(${siginimg})` }}
           >
-            <div className='absolute inset-0 bg-gradient-to-t from-black/80 to-transparent'></div>
+            <div className='absolute inset-0 bg-lineaar-to-t from-black/80 to-transparent'></div>
             <div className='relative z-10 h-full flex items-end p-12'>
               <div className='text-white max-w-md'>
                 <p className='uppercase text-sm tracking-wide mb-3'>Editorial Series</p>

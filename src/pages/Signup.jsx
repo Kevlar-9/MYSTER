@@ -1,10 +1,8 @@
 import { useState } from 'react';
-import AppleIcon from '@mui/icons-material/Apple';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 import signupImg from '../assets/signin.jpg';
-import google from '../assets/google.svg';
 import { Link } from 'react-router-dom';
 
 function Signup() {
