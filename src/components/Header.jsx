@@ -12,7 +12,7 @@ function Header () {
           <Link><h3 className="text-sm text-gray-600 font-[arial] hover:text-black transition duration-150">THE ATELIER</h3></Link>
         </div>
         <div className="text-center w-full justify-center items-center">
-          <h1 className="text-4xl font-[serif]">Myster</h1>
+          <Link to='/'><h1 className="text-4xl font-[serif]">Myster</h1></Link>
         </div>
         <div className="flex w-full items-center justify-evenly">
           <Link><h3 className="text-sm text-gray-600 font-[arial] hover:text-black transition duration-150">PHILOSOPHY</h3></Link>

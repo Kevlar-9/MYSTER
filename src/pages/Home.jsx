@@ -7,7 +7,7 @@ import philosophy from '../assets/Philosophy.svg'
 import leaf from '../assets/leaf.svg'
 import star from '../assets/star.svg'
 import warranty from '../assets/warranty.svg'
-
+import {Link} from 'react-router-dom'
 
 
 function Home(){
@@ -25,9 +25,10 @@ function Home(){
           <h1 className="text-5xl font-serif uppercase leading-tight text-white md:text-7xl">
             The Noir Collection
           </h1>
-          <button className="mt-8 rounded-full bg-white px-8 py-3 text-sm font-semibold uppercase text-black shadow-lg shadow-black/20 transition hover:bg-white/90">
+          <Link to='/collections'><button className="mt-8 rounded-full bg-white px-8 py-3 text-sm font-semibold uppercase text-black shadow-lg shadow-black/20 transition hover:bg-white/90">
             Explore the Monolith
           </button>
+          </Link>
         </div>
       </section>
 
